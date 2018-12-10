@@ -37,9 +37,12 @@
             </div>-->
             <!--<div class="col-lg-4"></div>-->
             <div class="container">
-                <div class="card" style="float: right; width:60%; height: 60%; background-color: yellow;">
-                        <div class="card-body">
-                                <input id="output" type="text" class="form-control" placeholder="INPUT/OUTPUT" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="card outPutCard" style="float: right; width:60%; height: 60%; background-color: rgb(242, 185, 207);">
+                        <div class="card-body" id="displayNum">
+                            <!---<p id="singleNums" style="float: left; font-size: 25px"></p>--><!--with float-->
+                                <!--<input id="output" type="text" class="form-control" placeholder="INPUT/OUTPUT" aria-label="Username" aria-describedby="basic-addon1">-->
+                                <p class="Clear" id="singleNums" style="font-size: 25px"></p><!--no float-->
+
                         </div>
                 </div>
             </div>
@@ -48,7 +51,7 @@
                 <div class="card" style="background-color: yellow;">
                     <h3 class="card-header">Calculator</h3>
 
-                    <div class="card-body">
+                    <div class="card-body outPutBnt">
                         <button id="button-7" class="btn btn-primary number" value="7">
                             <h1>7</h1>
                         </button>
@@ -112,7 +115,8 @@
 
 
 
-    <script src="theMath.js"></script>
+    <script src="/Users/Shampopencil/Desktop/CreatingACalculator/theMath.js"></script>
+    <script src="/Users/Shampopencil/Desktop/CreatingACalculator/math2.js"></script><!--Merge another file-->
 </body>
 
 </html>
