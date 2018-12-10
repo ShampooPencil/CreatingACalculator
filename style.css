@@ -1,1 +1,6 @@
-
+#output{
+    font-size: 30px;
+}
+html{
+    background-color: yellow;
+}

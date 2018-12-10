@@ -4,14 +4,115 @@
 
 <html lang="en-us">
 
-  <head>
+<head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/Users/Shampopencil/Desktop/CreatingACalculator/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
 
-  </head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="align-middle">
+                <h1 class="display-5">Simple Calculator!</h1>
+                <br />
+                <p class="h4"> Use it if you need any simple math equations or use it for jus thaving fun with it!</p>
+            </div>
+        </div>
+    </div>
 
-  <body>
-      <script src="theMath.js"></script>
- </body>
+    <!--<div class="container">
+        <div class="row">
+            <div class="col">
+                <div style="height: 100px; width: 100%; background-color: rgba(255,0,0,0.1);">
+                    <div class="float-left"></div>
+                    
+                    -<div class="mh-100" style="width: 100px; height: 200px; background-color: rgba(0,0,255,0.1);">Max-height 100%</div>
+                </div>
+            </div>-->
+            <!--<div class="col-lg-4"></div>-->
+            <div class="container">
+                <div class="card" style="float: right; width:60%; height: 60%; background-color: yellow;">
+                        <div class="card-body">
+                                <input id="output" type="text" class="form-control" placeholder="INPUT/OUTPUT" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                </div>
+            </div>
+            <div class="container">
+            <div class="col-lg-4">
+                <div class="card" style="background-color: yellow;">
+                    <h3 class="card-header">Calculator</h3>
+
+                    <div class="card-body">
+                        <button id="button-7" class="btn btn-primary number" value="7">
+                            <h1>7</h1>
+                        </button>
+                        <button id="button-8" class="btn btn-primary number" value="8">
+                            <h1>8</h1>
+                        </button>
+                        <button id="button-9" class="btn btn-primary number" value="9">
+                            <h1>9</h1>
+                        </button>
+                        <button id="button-plus" class="btn btn-danger operator" value="plus">
+                            <h1>+</h1>
+                        </button>
+                        <br><br>
+                        <button id="button-4" class="btn btn-primary number" value="4">
+                            <h1>4</h1>
+                        </button>
+                        <button id="button-5" class="btn btn-primary number" value="5">
+                            <h1>5</h1>
+                        </button>
+                        <button id="button-6" class="btn btn-primary number" value="6">
+                            <h1>6</h1>
+                        </button>
+                        <button id="button-minus" class="btn btn-danger operator" value="minus">
+                            <h1>&minus;</h1>
+                        </button>
+                        <br><br>
+                        <button id="button-1" class="btn btn-primary number" value="1">
+                            <h1>1</h1>
+                        </button>
+                        <button id="button-2" class="btn btn-primary number" value="2">
+                            <h1>2</h1>
+                        </button>
+                        <button id="button-3" class="btn btn-primary number" value="3">
+                            <h1>3</h1>
+                        </button>
+                        <button id="button-multiply" class="btn btn-danger operator" value="times">
+                            <h1>&times;</h1>
+                        </button>
+                        <br><br>
+                        <button id="button-0" class="btn btn-primary number" value="0">
+                            <h1>0</h1>
+                        </button>
+                        <button id="button-divide" class="btn btn-danger operator" value="divide">
+                            <h1>&divide;</h1>
+                        </button>
+                        <button id="button-power" class="btn btn-danger operator" value="power">
+                            <h1>^</h1>
+                        </button>
+                        <button id="button-equal" class="btn btn-success equal" value="equals">
+                            <h1>=</h1>
+                        </button>
+                        <br><br>
+                        <button id="button-clear" class="btn btn-dark clear" value="clear">
+                            <h1>clear</h1>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+
+
+
+    <script src="theMath.js"></script>
+</body>
+
 </html>
